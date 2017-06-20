@@ -35,7 +35,7 @@ namespace SeleniumTest
             Thread.Sleep(7500);
         }
 
-        public void Run()
+        public void RunWeibo()
         {
             Init();
             Login();
@@ -78,6 +78,28 @@ namespace SeleniumTest
             put("Complete, total Weibo count:" + weiboCount);
         }
 
+        public void RunJLU()
+        {
+            Init();
+            string url = "https://oa.jlu.edu.cn/defaultroot/PortalInformation!jldxList.action?1=1&startPage=";
+            string xpath = "//*[@id=\"rightIframe\"]/div/div[3]/div[2]/table/tbody/tr/td/table/tbody/tr/td[2]";
+            int page = 1;
+            int maxPage = 1;
+            while (true)
+            {
+                _driver.Navigate().GoToUrl(url + page++);
+                var elements = _driver.FindElements(By.XPath("//*[@id=\"itemContainer\"]/div"));
+                foreach (IWebElement element in elements)
+                {
+                    put(element.Text);
+                }
+            }
+   
+
+
+
+        }
+
         public static void put(string s)
         {
             Console.WriteLine(s);
@@ -85,7 +107,7 @@ namespace SeleniumTest
 
         public static void Main()
         {
-            new TestTarget().Run();
+           new TestTarget().RunJLU();
         }
     }
 }
