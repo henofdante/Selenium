@@ -17,8 +17,8 @@ namespace SeleniumTest
         private Cycle _cycle;
 
         private const string User = "daliansunziyu";
-        private const string Username = "17649818647";
-        private const string Password = "qwerty123456.";
+        private const string Username = "*********";
+        private const string Password = "*********";
         private const string Url = "https://weibo.cn/";
         private const string LoginUrl = "https://passport.weibo.cn/signin/Login";
 

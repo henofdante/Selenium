@@ -12,7 +12,7 @@ namespace SeleniumTest
         private const string path = "d:\\final.txt";
         public void Push(string time, string text)
         {
-            string txt = "{'time':'" + time + "', 'content':'" + text + "'}";
+            string txt = "{\n    'time':'" + time + "',\n    'content':'" + text.Replace('\n', ' ') + "'\n}";
             FileStream fs = new FileStream(path, FileMode.Append);
             StreamWriter sw = new StreamWriter(fs);
             sw.Write(txt);
