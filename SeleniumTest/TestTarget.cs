@@ -94,9 +94,6 @@ namespace SeleniumTest
                     put(element.Text);
                 }
             }
-   
-
-
 
         }
 
@@ -105,9 +102,9 @@ namespace SeleniumTest
             Console.WriteLine(s);
         }
 
-        public static void Main()
-        {
-           new TestTarget().RunJLU();
-        }
+//        public static void Main()
+//        {
+//           new TestTarget().RunWeibo();
+//        }
     }
 }
