@@ -1,0 +1,14 @@
+c:\users\henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.exe.config
+c:\users\henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.exe
+c:\users\henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.pdb
+c:\users\henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
+c:\users\henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.exe
+c:\users\henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.pdb
+C:\Users\Henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\bin\Debug\nunit.framework.dll
+C:\Users\Henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.dll
+C:\Users\Henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.Support.dll
+C:\Users\Henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\bin\Debug\nunit.framework.xml
+C:\Users\Henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.pdb
+C:\Users\Henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.xml
+C:\Users\Henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.Support.pdb
+C:\Users\Henof\documents\visual studio 2017\Projects\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.Support.xml
